@@ -642,5 +642,100 @@ svg .cls-1 {
   nav{
     padding: 100px 40px 60px 40px;
   }
+
+  .grid-container{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 100vh 100vh;
+    margin: 0% auto;
+  }
+  .item-a {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1; 
+  }
+  .item-b {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  main img{
+    margin: 0% auto;
+    width: 30vw;
+    
+
+   }
+   h3{
+     font-size: 2.5rem;
+
+   }
+   #me{
+     padding-top: 5%;
+     font-size: 2rem;
+   }
+   #submenu{
+     font-size: 2.5vw;
+     
+   }
+   .drop{
+     margin: 0% 30%;
+     
+   }
+   .drop h4{
+     font-size: 1.7rem;
+   }
+   .drop p{
+     font-size: 1.5rem;
+   }
+   .work{
+     width: 50vw;
+    margin: 0% auto;
+   }
+   .work img{
+     width: 50vw;
+   }
+   .flex-box-build-site{
+     display: flex;
+     box-sizing: border-box;
+     width: 35vw;
+     margin: 0% auto;
+   }
+   .flex-box-help-insurances{
+     display: flex;
+     box-sizing: border-box;
+     width: 50vw;
+     margin: 0% auto;
+     flex-direction: row;
+     justify-content: space-evenly;
+
+   }
+   .help-insurances-item{
+      width: 25vw;
+   }
+   .help-insurances-item p{
+      width: 25vw;
+   }
+   h6{
+     padding: 0px;
+     margin: 0% auto;
+   }
+   .pad{
+     padding-bottom: 2%;
+   }
+   .contact-container{
+     height: 15vh;
+    }
+    .contact-container a {
+      font-size: 50px;
+    }
+    #contact-h2{
+      padding: 0%;
+     font-size: 2.5rem;
+   }
+    #bottom-margin{
+        margin-bottom: 5%;
+    }
 }
+
   
