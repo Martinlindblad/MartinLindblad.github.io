@@ -69,4 +69,52 @@ $('.burger, .overlay').click(function(){
                 return false;
               }
       });
+
+      // ____________________Header animation_________________________
+
+      anime.timeline({loop: true})
+      .add({
+        targets: '.ml5 .letters-left',
+        opacity: [0,1],
+        easing: "easeOutExpo",
+        duration: 600,
+        offset: '-=300'
+      }).add({
+        targets: '.ml5 .letters-right',
+        opacity: [0,1],
+        easing: "easeOutExpo",
+        duration: 600,
+        offset: '-=600'
+      }).add({
+        targets: '.ml5',
+        opacity: [1,0],
+        duration: 5000,
+        delay: 5000,
+        translateX: ["-3em", 1],
+        easing: "easeOutExpo",
+      })
       
+      .add({
+        targets: '.ml5',
+        opacity: [1,0],
+        duration: 5000,
+        delay: 4000,
+        translateX: ["-3em", 1],
+        easing: "easeOutExpo",
+      });
+  
+      // function getRandomColor() {
+      //   var letters = '0123456789ABCDEF';
+      //   var color = '#';
+      //   for (var i = 0; i < 6; i++) {
+      //     color += letters[Math.floor(Math.random() * 16)];
+      //   }
+      //   return color;
+      // }
+      
+      
+      
+      // function setRandomColor() {
+      //   $(".m15").css("background-color", getRandomColor());
+      // }
+

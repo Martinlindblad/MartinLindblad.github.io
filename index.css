@@ -10,7 +10,7 @@ body{
 }
 h1, h2, h3, h4, h5{
     margin: 0% auto;
-    font-family: 'Lancelot', cursive;
+    /* font-family: 'Lancelot', cursive; */
 }
 
 svg{
@@ -376,14 +376,24 @@ svg .cls-1 {
          margin: 0% auto;
      }
 
-     header > h1{
+   
+      
+      .ml5 {
+        color: #ffffff;
         top: 30%;
-        left: 15%;
-        position: absolute;
-         color: #ffffff;
-        text-shadow: rgb(0, 0, 0) 1px 1px;
+        left: 25%;
         opacity: 1;
-     }
+        position: relative;
+      font-weight: 300;
+      font-size: 4.5em;
+    }
+    
+  
+    
+    .ml5 .letters {
+      display: inline-block;
+      opacity: 0;
+    }
      .wrapper{
        height: 30vh;
      }
